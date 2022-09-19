@@ -2,6 +2,8 @@
 
 An exercise from the book [The Pragmatic Programmer](https://www.amazon.co.uk/The-Pragmatic-Programmer-Andrew-Hunt/dp/020161622X). Write a script that generates a `names.h` and `names.c` with enums supplied from a file.
 
+This would be useful to be able to print out the state as a string (as opposed to a number) for debugging purposes.
+
 ## Usage
 
 ```sh

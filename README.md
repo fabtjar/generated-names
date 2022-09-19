@@ -2,7 +2,7 @@
 
 An exercise from the book [The Pragmatic Programmer](https://www.amazon.co.uk/The-Pragmatic-Programmer-Andrew-Hunt/dp/020161622X).
 
-Write a script that generates a `names.h` and `names.c` file with enums supplied from a file.
+Write a script that generates a `name.h` and `name.c` file with enums supplied from within the `names.txt` file.
 This would be useful to be able to print out the state as a string (as opposed to a number) for debugging purposes.
 
 ## Usage

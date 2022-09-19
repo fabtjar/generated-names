@@ -9,3 +9,36 @@ python3 generate_names.py
 clang main.c --include name.c -o generated_names
 ./generated_names
 ```
+
+## Files generates
+
+```c
+// name.h
+
+#ifndef NAME_H
+#define NAME_H
+
+extern const char* NAME_names[];
+
+typedef enum {
+    state_ace,
+    state_act,
+    ...
+    state_zap,
+    state_zip,
+} NAME;
+
+#endif  // NAME_H
+```
+
+```c
+// name.c
+
+const char* NAME_names[] = {
+    "state_ace",
+    "state_act",
+    ...
+    "state_zap",
+    "state_zip",
+};
+```
